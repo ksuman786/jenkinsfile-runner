@@ -33,6 +33,7 @@ unzip jenkins.war -d /tmp/jenkins
 
 Next, create a directory and assemble all the plugins that you'd like to use with the build.
 One way to do this is to run the Jenkins setup wizard and install the default set of plugins.
+test
 This is a gap intended to be filled with [configuration as code](https://github.com/jenkinsci/configuration-as-code-plugin)
 ```
 JENKINS_HOME=/tmp/jenkins_home java -jar jenkins.war
